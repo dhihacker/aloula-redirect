@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/:id/playlist.m3u8",
+      "destination": "/api/:id"
+    },
+    {
+      "source": "/:id",
+      "destination": "/api/:id"
+    }
+  ]
+}
